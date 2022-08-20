@@ -1,0 +1,78 @@
+.bg-image {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+body{
+  overflow-x: hidden;
+}
+@font-face {
+  font-family:outfit;
+  src: url("../fonts/Outfit-Regular.ttf");
+}
+.image{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.image1{
+  position: absolute;
+  top: 130px;
+  right: 10px;
+}
+.image2{
+  position: absolute;
+  top: 130px;
+  right: 10px;
+  transform: rotate(45deg);
+}
+.page-one{
+  background: #F4F1F1;
+
+}
+.date{
+  font-size: 120px;
+}
+@media only screen and (max-width:1245px) {
+  .date {
+    font-size: 80px;
+  }
+}
+@media (min-width:1300px) and (max-width:1472px){
+  .image1{
+    top: 260px;
+  }
+  .image2{
+    top: 260px;
+  }
+}
+@media (min-width:992px) and (max-width:1300px){
+  .image1{
+    top: 360px;
+  }
+  .image2{
+    top: 360px;
+  }
+}
+.page-one-border1{
+  background-color: #FFFFFF ;
+}
+.page-two{
+  background-color: #FFFFFF;
+}
+.outline1{
+  outline: 1px solid black;
+  outline-offset: -27px;
+}
+.nft{
+  font-size: 100px;
+  font-family: outfit;
+}
+@media only screen and (max-width: 600px) {
+  .nft {
+    font-size: 70px;
+  }
+}
+.outfit{
+  font-family: outfit;
+}
